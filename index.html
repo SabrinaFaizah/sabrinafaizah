@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Faizah</title>
+    <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Sabrina Faizah</a>
+
+                <!-- Desktop Menu -->
+                <nav class="desktop-nav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Jadwal Pelajaran XII DKV 1.html" class="nav-link">12 DKV 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Wrong - Prettymuch.html" class="nav-link">Song</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Menghitung</a>
+                            <div class="dropdown">
+                                <a href="Hitung Luas.html" class="dropdown-link">Luas Persegi</a>
+                                <a href="Hitung Volume.html" class="dropdown-link">Volume Kotak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="About Sabrina.html" class="nav-link">About Me</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="Jadwal Pelajaran XII DKV 1.html">12 DKV 1</a></li>
+                <li><a href="Wrong - Prettymuch.html">Song</a></li>
+                <li>
+                    <a href="#" onclick="toggleSubmenu(event)">Menghitung</a>
+                    <ul class="mobile-submenu" id="submenu" style="display: none;">
+                        <li><a href="Hitung Luas.html">Luas Persegi</a></li>
+                        <li><a href="Hitung Volume.html">Volume Kotak</a></li>
+                    </ul>
+                </li>
+                <li><a href="About Sabrina.html">About Me</a></li>
+            </ul>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay" id="overlay"></div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="welcome-section">
+                <h1>Selamat Datang di Personal Web Sabrina Faizah</h1>
+                <p>Website ini berisi Lirik Lagu, Tentang Saya, Kalkulator, dan Jadwal Pelajaran 12 DKV 1. Ini adalah website pertama saya, kenali saya lebih lanjut di blog About Me.</p>
+
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>📅 Jadwal Pelajaran</h3>
+                        <p>Jadwal Pelajaran ini adalah untuk kelas XII DKV 1, karna saya adalah siswi XII DKV 1 di SMKN 1 Tangerang.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>🔢 Kalkulator</h3>
+                        <p>Kalkulatornya bisa kalian gunakan untuk menghitung Luas dan Volume sebuah persegi.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>🎵 Song</h3>
+                        <p>Lirik lagu yang saya tampilkan adalah salah satu lagu favorite saya, dari band favorite saya yaitu Prettymuch, dengan judul lagu Wrong yang memiliki makna yang mendalam.</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>👤 About Fai</h3>
+                        <p>Nama saya adalah Sabrina Faizah, tapi teman-teman SMK saya kerap memanggil saya dengan sebutan Fai.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="kode.js"></script>
+</body>
+</html>
